@@ -1,0 +1,13 @@
+ Dear {NAME}, 
+                  This is a friendly reminder that your appointment is scheduled on {date and time}.
+                  Please make sure to arrive 15 mins prior to your scheduled time to fill out the requirement forms.
+                  
+
+
+
+
+
+
+                  Thank you.
+                  Regards,
+                  University Health Services

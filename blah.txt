@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<?php
+$to="ritagyameharishi@yahoo.co.in";
+$subject=$_POST ['subject'];
+$message=$_POST ['message'];
+$from=$_POST ['from'];
+
+mail ($to, $subject, $message, $form);
+
+echo "remind has been sent"
+?>
+
+
+<html>
+<head>
+  <title> </title>
+</head>
+
+<style type="text/css">
+</style>
+
+<div id="form">
+  <form method="post" name="form1" action="?">
+    <label for="subject"> Subject: </label>
+    <input type="text" name="subject" id="subject">
+    <br>
+
+    <label for="message"> message: </label>
+    <input type="text" name="message" id="message">
+    <br>
+    <input type="submit" value="send email">
+  </form>
+</div>
+</html>
