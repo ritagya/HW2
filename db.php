@@ -6,11 +6,11 @@ date_default_timezone_set('America/Los_Angeles');
 
 
 function connectToDB(){
-	$link = mysql_connect('127.0.0.1:3388', 'root', '');
+	$link = mysql_connect('us-cdbr-iron-east-01.cleardb.net', 'b21ea2aecbe285', '7b47a8e2');
 	if (!$link) {
 	    die('Could not connect: ' . mysql_error());
 	}
-	mysql_select_db('university health services');
+	mysql_select_db('heroku_8629d5c11fbf7e8');
 	return $link;
 }
 
